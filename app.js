@@ -14,11 +14,11 @@ app.use("/",postRoute);
 //connecting database
 connectDB();
 
-app.get('',(req,res)=>{
-    let obj={"name":"naveen kuamr","age":21};
-    res.send(obj);
-    //res.status(200).send("data is sending");
-})
+// app.get('',(req,res)=>{
+//     let obj={"name":"naveen kuamr","age":21};
+//     res.send(obj);
+//     //res.status(200).send("data is sending");
+// })
 
 //post method
 

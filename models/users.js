@@ -13,6 +13,4 @@ const postSchema=new mongoose.Schema({
 
 const Post=mongoose.model('students',postSchema);
 
-module.exports={
-    Post
-}
+module.exports=Post;
